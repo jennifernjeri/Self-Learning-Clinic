@@ -1,6 +1,6 @@
 
 def prime_generator(n):
-    # raise ValueError is n is less than two
+    # raise ValueError if n is less than two
     if n < 2:
         raise ValueError("number is less than two")
     primes = []
